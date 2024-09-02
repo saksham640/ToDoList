@@ -1,0 +1,76 @@
+.heading{
+    color: white;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inputField{
+    border-radius: 1rem;
+    height: 1.5rem;
+    text-align: center;
+}
+.inputBoxx{
+    justify-content: center;
+    display: flex;
+}
+.addButton{
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    text-align: center;
+    background-color: rgb(180, 180, 180);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.addButton:active{
+    transform: scale(0.9);
+}
+.tasks{
+    height: 100;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.taskFormat{
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(118, 118, 118);
+    width: 70vw;
+    height: 10vh;
+    text-align: left;
+    border: 1px solid transparent;
+    background-color: rgb(215, 215, 215);
+    color: black;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: ease-in;
+}
+.taskText{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(39, 39, 39);
+}
+.deleteButton{
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+.deleteButton:active{
+    transform: scale(0.8);
+}
+.messages{
+    color: rgb(255, 96, 96);
+    text-align: center;
+    border-radius: 0.5rem;
+    display: inline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
