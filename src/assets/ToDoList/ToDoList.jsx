@@ -28,8 +28,8 @@ export default function ToDoList(){
         }
     }
 
-    let deleteTask = function(event){
-        let targetTask = event.target.parentElement.previousSibling.innerHTML;
+    let deleteTask = async function(event){
+        let targetTask = await event.target.parentElement.previousSibling.innerHTML;
         setTasks(removeStringFromArray(tasks,targetTask));
     }
 
